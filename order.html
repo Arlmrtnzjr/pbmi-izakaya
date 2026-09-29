@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PBMI Izakaya Order</title>
+<script>
+const params = new URLSearchParams(window.location.search);
+const table = params.get('table');
+const base = 'https://script.google.com/macros/s/AKfycbx4nKdTVVxkmz-016a7wOzJq2aPcc-JKSdF2ZmU_mru8RZzKlIeV95syYYnFozKWyr-Jw/exec';
+if (table) window.location.replace(base + '?table=' + encodeURIComponent(table));
+</script>
+<style>
+body{font-family:Arial,sans-serif;background:#08111f;color:#fff;display:grid;place-items:center;min-height:100vh;margin:0;text-align:center}.card{padding:30px}a{color:#d4af37}
+</style>
+</head>
+<body>
+<div class="card"><h1>PBMI IZAKAYA</h1><p>Opening ordering page…</p><p><a href="table7.html">Open Table 7 Test</a></p></div>
+</body>
+</html>
